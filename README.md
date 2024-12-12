@@ -24,3 +24,5 @@ Digital Twins with Retrieval-Augmented Generation (RAG) and 3D Gaussian Splattin
 ### RAG of objects
 
 ### Physics, hidden and dynamic properties of objects and environments
+
+### Lighting and shadows
