@@ -1,28 +1,161 @@
-# Awesome Digital Twins
-Digital Twins with Retrieval-Augmented Generation (RAG) and 3D Gaussian Splatting (3DGS)
-
-## Table of Contents
-- [Static scenes](#static-scenes)
-- [Dynamic scenes](#dynamic-scenes)
-
-### Static scenes
-
-+ [SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering](https://arxiv.org/abs/2311.12775)  
-  [![Star](https://img.shields.io/github/stars/Anttwo/SuGaR.svg?style=social&label=Star)](https://github.com/Anttwo/SuGaR)
-
-### Dynamic scenes
-
-+ [EgoGaussian: Dynamic Scene Understanding from Egocentric Video with 3D Gaussian Splatting](https://arxiv.org/abs/2406.19811)  
-  [![Star](https://img.shields.io/github/stars/zdwww/EgoGaussian.svg?style=social&label=Star)](https://github.com/zdwww/EgoGaussian)  
-
-### DT representations: PC, 3DGS points, mesh, reflections, texture
-
-### Articulated, compound, soft, flexible objects
-
-### Inpainting of objects
-
-### RAG of objects
-
-### Physics, hidden and dynamic properties of objects and environments
-
-### Lighting and shadows
+# 📖 Awesome Digital Twins: A Survey
+## Papers
+  
+Table of contents: [2024](#2024) - [2023](#2023) - [2022](#2022) - [2021](#2021)   
+  
+  
+## 2024
+  
+| Stars | arXiv |  
+|:------------|:-------------|  
+| [![Star](https://img.shields.io/github/stars/gsrelight/gs-relight.svg)](https://github.com/gsrelight/gs-relight) | [GS^3: Efficient Relighting with Triple Gaussian Splatting](https://arxiv.org/abs/2410.11419)  
+| [![Star](https://img.shields.io/github/stars/cremebrule/digital-cousins.svg)](https://github.com/cremebrule/digital-cousins) | [Automated Creation of Digital Cousins for Robust Policy Learning](https://arxiv.org/abs/2410.07408)  
+| [![Star](https://img.shields.io/github/stars/rzhevcherkasy/BMVC24-GSIM.svg)](https://github.com/rzhevcherkasy/BMVC24-GSIM) | [Gaussian Splatting in Mirrors: Reflection-Aware Rendering via Virtual Camera Optimization](https://arxiv.org/abs/2410.01614)  
+| [![Star](https://img.shields.io/github/stars/dukang/GS-ID..svg)](https://github.com/dukang/GS-ID.) | [GS-ID: Illumination Decomposition on Gaussian Splatting via Diffusion Prior and Parametric Light Source Optimization](https://arxiv.org/abs/2408.08524)  
+| [![Star](https://img.shields.io/github/stars/buaacyw/MeshAnything.svg)](https://github.com/buaacyw/MeshAnything) | [MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers](https://arxiv.org/abs/2406.10163)  
+| [![Star](https://img.shields.io/github/stars/YuxueYang1204/TrimGS.svg)](https://github.com/YuxueYang1204/TrimGS) | [Trim 3D Gaussian Splatting for Accurate Geometry Representation](https://arxiv.org/abs/2406.07499)  
+| [![Star](https://img.shields.io/github/stars/JiahuiLei/MoSca.svg)](https://github.com/JiahuiLei/MoSca) | [Mosca: Dynamic gaussian fusion from casual videos via 4d motion scaffolds](https://arxiv.org/abs/2405.17421)  
+| [![Star](https://img.shields.io/github/stars/yikaiw/vidu4d.svg)](https://github.com/yikaiw/vidu4d) | [Vidu4D: Single Generated Video to High-Fidelity 4D Reconstruction with Dynamic Gaussian Surfels](https://arxiv.org/abs/2405.16822)  
+| [![Star](https://img.shields.io/github/stars/mvp18/sp2-360.svg)](https://github.com/mvp18/sp2-360) | [Sp2360: Sparse-view 360 scene reconstruction using cascaded 2d diffusion priors](https://arxiv.org/abs/2405.16517)  
+|  | [MirrorGaussian: Reflecting 3D Gaussians for Reconstructing Mirror Reflections](https://arxiv.org/abs/2405.11921)  
+|  | [Direct learning of mesh and appearance via 3d gaussian splatting](https://arxiv.org/abs/2405.06945)  
+| [![Star](https://img.shields.io/github/stars/dreamscene4d/dreamscene4d.svg)](https://github.com/dreamscene4d/dreamscene4d) | [Dreamscene4d: Dynamic multi-object scene generation from monocular videos](https://arxiv.org/abs/2405.02280)  
+| [![Star](https://img.shields.io/github/stars/MisEty/RTG-SLAM.svg)](https://github.com/MisEty/RTG-SLAM) | [Rtg-slam: Real-time 3d reconstruction at scale using gaussian splatting](https://arxiv.org/abs/2404.19706)  
+| [![Star](https://img.shields.io/github/stars/turandai/gaussian_surfels.svg)](https://github.com/turandai/gaussian_surfels) | [High-quality Surface Reconstruction using Gaussian Surfels](https://arxiv.org/abs/2404.17774)  
+| [![Star](https://img.shields.io/github/stars/CrystalWlz/OMEGAS.svg)](https://github.com/CrystalWlz/OMEGAS) | [Omegas: Object mesh extraction from large scenes guided by gaussian segmentation](https://arxiv.org/abs/2404.15891)  
+| [![Star](https://img.shields.io/github/stars/gbliao/CLIP-GS.svg)](https://github.com/gbliao/CLIP-GS) | [CLIP-GS: CLIP-Informed Gaussian Splatting for Real-time and View-consistent 3D Semantic Understanding](https://arxiv.org/abs/2404.14249)  
+|  | [Contrastive Gaussian Clustering: Weakly Supervised 3D Scene Segmentation](https://arxiv.org/abs/2404.12784)  
+| [![Star](https://img.shields.io/github/stars/Isabella98Liu/DG-Mesh.svg)](https://github.com/Isabella98Liu/DG-Mesh) | [Dynamic gaussians mesh: Consistent mesh reconstruction from monocular video](https://arxiv.org/abs/2404.12379)  
+| [![Star](https://img.shields.io/github/stars/ali-vilab/infusion.svg)](https://github.com/ali-vilab/infusion) | [InFusion: Inpainting 3D Gaussians via Learning Depth Completion from Diffusion Prior](https://arxiv.org/abs/2404.11613)  
+| [![Star](https://img.shields.io/github/stars/Chaphlagical/Deblur-GS.svg)](https://github.com/Chaphlagical/Deblur-GS) | [Deblurgs: Gaussian splatting for camera motion blur](https://arxiv.org/abs/2404.11358)  
+| [![Star](https://img.shields.io/github/stars/autonomousvision/gaussian-opacity-fields.svg)](https://github.com/autonomousvision/gaussian-opacity-fields) | [Gaussian Opacity Fields: Efficient and Compact Surface Reconstruction in Unbounded Scenes](https://arxiv.org/abs/2404.10772)  
+| [![Star](https://img.shields.io/github/stars/weijielyu/Gaga.svg)](https://github.com/weijielyu/Gaga) | [Gaga : Group Any Gaussians via 3D-aware Memory Bank](https://arxiv.org/abs/2404.07977)  
+| [![Star](https://img.shields.io/github/stars/jaidevshriram/realmdreamer.svg)](https://github.com/jaidevshriram/realmdreamer) | [Realmdreamer: Text-driven 3d scene generation with inpainting and depth diffusion](https://arxiv.org/abs/2404.07199)  
+| [![Star](https://img.shields.io/github/stars/TencentARC/InstantMesh.svg)](https://github.com/TencentARC/InstantMesh) | [InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models](https://arxiv.org/abs/2404.07191)  
+|  | [Gaussian-lic: Photo-realistic lidar-inertial-camera slam with 3d gaussian splatting](https://arxiv.org/abs/2404.06926)  
+| [![Star](https://img.shields.io/github/stars/ShijieZhou-UCLA/DreamScene360.svg)](https://github.com/ShijieZhou-UCLA/DreamScene360) | [Dreamscene360: Unconstrained text-to-3d scene generation with panoramic gaussian splatting](https://arxiv.org/abs/2404.06903)  
+| [![Star](https://img.shields.io/github/stars/zhichengLuxx/GaGS.svg)](https://github.com/zhichengLuxx/GaGS) | [3D Geometry-aware Deformable Gaussian Splatting for Dynamic View Synthesis](https://arxiv.org/abs/2404.06270)  
+|  | [Stylizedgs: Controllable stylization for 3d gaussian splatting](https://arxiv.org/abs/2404.05220)  
+| [![Star](https://img.shields.io/github/stars/JarrentWu1031/SC4D.svg)](https://github.com/JarrentWu1031/SC4D) | [Sc4d: Sparse-controlled video-to-4d generation and motion transfer](https://arxiv.org/abs/2404.03736)  
+| [![Star](https://img.shields.io/github/stars/JeongminB/E-D3DGS.svg)](https://github.com/JeongminB/E-D3DGS) | [Per-Gaussian Embedding-Based Deformation for Deformable 3D Gaussian Splatting](https://arxiv.org/abs/2404.03613)  
+| [![Star](https://img.shields.io/github/stars/DreamScene-Project/DreamScene.svg)](https://github.com/DreamScene-Project/DreamScene) | [DreamScene: 3D Gaussian-based Text-to-3D Scene Generation via Formation Pattern Sampling](https://arxiv.org/abs/2404.03575)  
+|  | [Tclc-gs: Tightly coupled lidar-camera gaussian splatting for surrounding autonomous driving scenes](https://arxiv.org/abs/2404.02410)  
+| [![Star](https://img.shields.io/github/stars/yanivw12/gs2mesh/tree/main.svg)](https://github.com/yanivw12/gs2mesh/tree/main) | [Surface Reconstruction from Gaussian Splatting via Novel Stereo Views](https://arxiv.org/abs/2404.01810)  
+| [![Star](https://img.shields.io/github/stars/NVlabs/DigitalTwinArt.svg)](https://github.com/NVlabs/DigitalTwinArt) | [Neural Implicit Representation for Building Digital Twins of Unknown Articulated Objects](https://arxiv.org/abs/2404.01440)  
+| [![Star](https://img.shields.io/github/stars/vuer-ai/feature-splatting-inria.svg)](https://github.com/vuer-ai/feature-splatting-inria) | [Feature Splatting: Language-Driven Physics-Based Scene Synthesis and Editing](https://arxiv.org/abs/2404.01223)  
+|  | [Mirror-3DGS: Incorporating Mirror Reflections into 3D Gaussian Splatting](https://arxiv.org/abs/2404.01168)  
+| [![Star](https://img.shields.io/github/stars/VITA-Group/MM3DGS-SLAM.svg)](https://github.com/VITA-Group/MM3DGS-SLAM) | [Mm3dgs slam: Multi-modal 3d gaussian splatting for slam using vision, depth, and inertial measurement](https://arxiv.org/abs/2404.00923)  
+| [![Star](https://img.shields.io/github/stars/NVlabs/InstantSplat.svg)](https://github.com/NVlabs/InstantSplat) | [Instantsplat: Unbounded sparse- view pose-free gaussian splatting in 40 seconds](https://arxiv.org/abs/2403.20309)  
+|  | [Snap-it, tap-it, splat-it: Tactile-informed 3d gaussian splatting for reconstructing challenging surfaces](https://arxiv.org/abs/2403.20275)  
+|  | [Coherentgs: Sparse novel view synthesis with coherent 3d gaussians.](https://arxiv.org/abs/2403.19495)  
+| [![Star](https://img.shields.io/github/stars/SkyworkAI/Gamba.svg)](https://github.com/SkyworkAI/Gamba) | [Gamba: Marry gaussian splatting with mamba for single view 3d reconstruction](https://arxiv.org/abs/2403.18795)  
+| [![Star](https://img.shields.io/github/stars/facebookresearch/egolifter.svg)](https://github.com/facebookresearch/egolifter) | [Egolifter: Open- world 3d segmentation for egocentric perception](https://arxiv.org/abs/2403.18118)  
+| [![Star](https://img.shields.io/github/stars/hbb1/2d-gaussian-splatting.svg)](https://github.com/hbb1/2d-gaussian-splatting) | [2D Gaussian Splatting for Geometrically Accurate Radiance Fields](https://arxiv.org/abs/2403.17888)  
+| [![Star](https://img.shields.io/github/stars/maturk/dn-splatter.svg)](https://github.com/maturk/dn-splatter) | [DN-Splatter: Depth and Normal Priors for Gaussian Splatting and Meshing](https://arxiv.org/abs/2403.17822)  
+| [![Star](https://img.shields.io/github/stars/yuanze-lin/DreamPolisher.svg)](https://github.com/yuanze-lin/DreamPolisher) | [Dreampolisher: Towards high-quality text-to-3d generation via geometric diffusion](https://arxiv.org/abs/2403.17237)  
+| [![Star](https://img.shields.io/github/stars/hjr37/CG-SLAM.svg)](https://github.com/hjr37/CG-SLAM) | [Cg-slam: Efficient dense rgb-d slam in a consistent uncertainty-aware 3d gaussian field](https://arxiv.org/abs/2403.16095)  
+| [![Star](https://img.shields.io/github/stars/sharinka0715/semantic-gaussians.svg)](https://github.com/sharinka0715/semantic-gaussians) | [Semantic Gaussians: Open-Vocabulary Scene Understanding with 3D Gaussian Splatting](https://arxiv.org/abs/2403.15624)  
+| [![Star](https://img.shields.io/github/stars/Loping151/EndoGSLAM.svg)](https://github.com/Loping151/EndoGSLAM) | [Endogslam: Real-time dense reconstruction and tracking in endoscopic surgeries using gaussian splatting](https://arxiv.org/abs/2403.15124)  
+| [![Star](https://img.shields.io/github/stars/donydchen/mvsplat.svg)](https://github.com/donydchen/mvsplat) | [Mvsplat: Efficient 3d gaussian splatting from sparse multi-view images](https://arxiv.org/abs/2403.14627)  
+| [![Star](https://img.shields.io/github/stars/justimyhxu/grm.svg)](https://github.com/justimyhxu/grm) | [Grm: Large gaussian reconstruction model for efficient 3d reconstruction and generation](https://arxiv.org/abs/2403.14621)  
+| [![Star](https://img.shields.io/github/stars/SOTAMak1r/GVGEN.svg)](https://github.com/SOTAMak1r/GVGEN) | [Gvgen: Text-to-3d generation with volumetric representation](https://arxiv.org/abs/2403.12957)  
+| [![Star](https://img.shields.io/github/stars/Lab-of-AI-and-Robotics/GS_ICP_SLAM.svg)](https://github.com/Lab-of-AI-and-Robotics/GS_ICP_SLAM) | [Rgbd gs-icp slam](https://arxiv.org/abs/2403.12550)  
+|  | [High-fidelity slam using gaussian splatting with rendering-guided densification and regularized optimization](https://arxiv.org/abs/2403.12535)  
+| [![Star](https://img.shields.io/github/stars/Zerg-Overmind/GaussianFlow.svg)](https://github.com/Zerg-Overmind/GaussianFlow) | [Gaussianflow: Splatting gaussian dynamics for 4d content creation](https://arxiv.org/abs/2403.12365)  
+| [![Star](https://img.shields.io/github/stars/Yuxuan-W/VcEdit.svg)](https://github.com/Yuxuan-W/VcEdit) | [View-consistent 3d editing with gaussian splatting](https://arxiv.org/abs/2403.11868)  
+|  | [Neds-slam: A novel neural explicit dense semantic slam framework using 3d gaussian splatting](https://arxiv.org/abs/2403.11679)  
+|  | [Bridging 3d gaussian and mesh for freeview video rendering](https://arxiv.org/abs/2403.11453)  
+|  | [Motion-aware 3D Gaussian Splatting for Efficient Dynamic Scene Reconstruction](https://arxiv.org/abs/2403.11447)  
+| [![Star](https://img.shields.io/github/stars/Michaelszj/bags.svg)](https://github.com/Michaelszj/bags) | [Bags: Building animatable gaussian splatting from a monocular video with diffusion priors](https://arxiv.org/abs/2403.11427)  
+| [![Star](https://img.shields.io/github/stars/yanyan-li/GeoGaussian.svg)](https://github.com/yanyan-li/GeoGaussian) | [Geogaussian: Geometry-aware gaussian splatting for scene rendering](https://arxiv.org/abs/2403.11324)  
+| [![Star](https://img.shields.io/github/stars/lutao2021/BrightDreamer.svg)](https://github.com/lutao2021/BrightDreamer) | [Brightdreamer: Generic 3d gaussian generative framework for fast text-to-3d synthesis](https://arxiv.org/abs/2403.11273)  
+|  | [Neural parametric gaussians for monocular non-rigid object reconstruction](https://arxiv.org/abs/2403.11247)  
+|  | [Swag: Splatting in the wild images with appearance-conditioned gaussians](https://arxiv.org/abs/2403.10427)  
+|  | [FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model](https://arxiv.org/abs/2403.10242)  
+| [![Star](https://img.shields.io/github/stars/slothfulxtx/Texture-GS.svg)](https://github.com/slothfulxtx/Texture-GS) | [Texture-GS: Disentangling the Geometry and Texture for 3D Gaussian Splatting Editing](https://arxiv.org/abs/2403.10050)  
+| [![Star](https://img.shields.io/github/stars/WU-CVGL/MVControl.svg)](https://github.com/WU-CVGL/MVControl) | [Controllable text-to-3d generation via surface-aligned gaussian splatting](https://arxiv.org/abs/2403.09981)  
+| [![Star](https://img.shields.io/github/stars/Colmar-zlicheng/Spring-Gaus.svg)](https://github.com/Colmar-zlicheng/Spring-Gaus) | [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](https://arxiv.org/abs/2403.09434)  
+|  | [Hyper-3dg: Text-to-3d gaussian generation via hypergraph](https://arxiv.org/abs/2403.09236)  
+| [![Star](https://img.shields.io/github/stars/ActiveVisionLab/gaussctrl.svg)](https://github.com/ActiveVisionLab/gaussctrl) | [GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing](https://arxiv.org/abs/2403.08733)  
+| [![Star](https://img.shields.io/github/stars/GuanxingLu/ManiGaussian.svg)](https://github.com/GuanxingLu/ManiGaussian) | [ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation](https://arxiv.org/abs/2403.08321)  
+| [![Star](https://img.shields.io/github/stars/Kunhao-Liu/StyleGaussian.svg)](https://github.com/Kunhao-Liu/StyleGaussian) | [Stylegaussian: Instant 3d style transfer with gaussian splatting](https://arxiv.org/abs/2403.07807)  
+|  | [Gsedit: Efficient text-guided editing of 3d objects via gaussian splatting](https://arxiv.org/abs/2403.05154)  
+| [![Star](https://img.shields.io/github/stars/facebookresearch/ViewDiff.svg)](https://github.com/facebookresearch/ViewDiff) | [ViewDiff: 3D-Consistent Image Generation with Text-to-Image Models](https://arxiv.org/abs/2403.01807)  
+| [![Star](https://img.shields.io/github/stars/SJoJoK/3DGStream.svg)](https://github.com/SJoJoK/3DGStream) | [3dgstream: On-the-fly training of 3d gaussians for efficient streaming of photo-realistic free-viewpoint videos](https://arxiv.org/abs/2403.01444)  
+| [![Star](https://img.shields.io/github/stars/chensjtu/GaussianObject.svg)](https://github.com/chensjtu/GaussianObject) | [GaussianObject: Just Taking Four Images to Get A High-Quality 3D Object with Gaussian Splatting](https://arxiv.org/abs/2402.10259)  
+| [![Star](https://img.shields.io/github/stars/VDIGPKU/GALA3D.svg)](https://github.com/VDIGPKU/GALA3D) | [Gala3d: Towards text-to-3d complex scene generation via layout-guided generative gaussian splatting](https://arxiv.org/abs/2402.07207)  
+| [![Star](https://img.shields.io/github/stars/3DTopia/LGM.svg)](https://github.com/3DTopia/LGM) | [Lgm: Large multi-view gaussian model for high-resolution 3d content creation](https://arxiv.org/abs/2402.05054)  
+|  | [Mesh-based Gaussian Splatting for Real-time Large-scale Deformation](https://arxiv.org/abs/2402.04796)  
+| [![Star](https://img.shields.io/github/stars/chenguolin/InstructScene.svg)](https://github.com/chenguolin/InstructScene) | [InstructScene: Instruction-Driven 3D Indoor Scene Synthesis with Semantic Graph Prior](https://arxiv.org/abs/2402.04717)  
+| [![Star](https://img.shields.io/github/stars/weify627/4D-Rotor-Gaussians.svg)](https://github.com/weify627/4D-Rotor-Gaussians) | [4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes](https://arxiv.org/abs/2402.03307)  
+| [![Star](https://img.shields.io/github/stars/waczjoan/gaussian-mesh-splatting.svg)](https://github.com/waczjoan/gaussian-mesh-splatting) | [GaMeS: Mesh-Based Adapting and Modification of Gaussian Splatting](https://arxiv.org/abs/2402.01459)  
+|  | [360-GS: Layout-guided Panoramic Gaussian Splatting For Indoor Roaming](https://arxiv.org/abs/2402.00763)  
+| [![Star](https://img.shields.io/github/stars/r4dl/StopThePop.svg)](https://github.com/r4dl/StopThePop) | [StopThePop: Sorted Gaussian Splatting for View-Consistent Real-time Rendering](https://arxiv.org/abs/2402.00525)  
+| [![Star](https://img.shields.io/github/stars/XuHu0529/SAGS.svg)](https://github.com/XuHu0529/SAGS) | [SAGD: Boundary-Enhanced Segment Anything in 3D Gaussian via Gaussian Decomposition](https://arxiv.org/abs/2401.17857)  
+| [![Star](https://img.shields.io/github/stars/lastbasket/endo-4dgs.svg)](https://github.com/lastbasket/endo-4dgs) | [Endo-4DGS: Endoscopic Monocular Scene Reconstruction with 4D Gaussian Splatting](https://arxiv.org/abs/2401.16416)  
+|  | [Gaussian Splashing: Dynamic Fluid Synthesis with Gaussian Splatting](https://arxiv.org/abs/2401.15318)  
+| [![Star](https://img.shields.io/github/stars/zjy526223908/TIP-Editor.svg)](https://github.com/zjy526223908/TIP-Editor) | [Tip-editor: An accurate 3d editor following both text-prompts and image-prompts](https://arxiv.org/abs/2401.14828)  
+| [![Star](https://img.shields.io/github/stars/hku-medai/endogs.svg)](https://github.com/hku-medai/endogs) | [EndoGS: Deformable Endoscopic Tissues Reconstruction with Gaussian Splatting](https://arxiv.org/abs/2401.11535)  
+| [![Star](https://img.shields.io/github/stars/fudan-zvg/Efficient4D.svg)](https://github.com/fudan-zvg/Efficient4D) | [Fast Dynamic 3D Object Generation from a Single-view Video](https://arxiv.org/abs/2401.08742)  
+| [![Star](https://img.shields.io/github/stars/LuisBolanos17/GaussianShadowCasting/tree/main.svg)](https://github.com/LuisBolanos17/GaussianShadowCasting/tree/main) | [Gaussian shadow casting for neural characters](https://arxiv.org/abs/2401.06116)  
+|  | [Cosseggaussians: Compact and swift scene segmenting 3d gaussians with dual feature fusion](https://arxiv.org/abs/2401.05925v3)  
+|  | [AGG: Amortized Generative 3D Gaussians for Single Image to 3D](https://arxiv.org/abs/2401.04099)  
+  
+## 2023
+  
+| Stars | arXiv |  
+|:------------|:-------------|  
+| [![Star](https://img.shields.io/github/stars/VITA-Group/4DGen.svg)](https://github.com/VITA-Group/4DGen) | [4DGen: Grounded 4D Content Generation with Spatial-temporal Consistency](https://arxiv.org/abs/2312.17225)  
+| [![Star](https://img.shields.io/github/stars/jiawei-ren/dreamgaussian4d.svg)](https://github.com/jiawei-ren/dreamgaussian4d) | [DreamGaussian4D: Generative 4D Gaussian Splatting](https://arxiv.org/abs/2312.17142)  
+| [![Star](https://img.shields.io/github/stars/oppo-us-research/SpacetimeGaussians.svg)](https://github.com/oppo-us-research/SpacetimeGaussians) | [Spacetime gaussian feature splatting for real-time dynamicview synthesis](https://arxiv.org/abs/2312.16812)  
+| [![Star](https://img.shields.io/github/stars/minghanqin/LangSplat.svg)](https://github.com/minghanqin/LangSplat) | [LangSplat: 3D Language Gaussian Splatting](https://arxiv.org/abs/2312.16084)  
+| [![Star](https://img.shields.io/github/stars/yihua7/SC-GS.svg)](https://github.com/yihua7/SC-GS) | [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](https://arxiv.org/abs/2312.14937)  
+|  | [Swings: Sliding windows for dynamic 3d gaussian splatting](https://arxiv.org/abs/2312.13308)  
+| [![Star](https://img.shields.io/github/stars/PKU-YuanGroup/repaint123.svg)](https://github.com/PKU-YuanGroup/repaint123) | [Repaint123: Fast and high-quality one image to 3d generation with progressive controllable 2d repainting](https://arxiv.org/abs/2312.13271)  
+| [![Star](https://img.shields.io/github/stars/szymanowiczs/splatter-image.svg)](https://github.com/szymanowiczs/splatter-image) | [Splatter Image: Ultra-Fast Single-View 3D Reconstruction](https://arxiv.org/abs/2312.13150)  
+| [![Star](https://img.shields.io/github/stars/dcharatan/pixelsplat.svg)](https://github.com/dcharatan/pixelsplat) | [pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction](https://arxiv.org/abs/2312.12337)  
+| [![Star](https://img.shields.io/github/stars/Peter-Kocsis/IntrinsicImageDiffusion.svg)](https://github.com/Peter-Kocsis/IntrinsicImageDiffusion) | [Intrinsic Image Diffusion for Indoor Single-view Material Estimation](https://arxiv.org/abs/2312.12274)  
+| [![Star](https://img.shields.io/github/stars/VladimirYugay/Gaussian-SLAM.svg)](https://github.com/VladimirYugay/Gaussian-SLAM) | [Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting](https://arxiv.org/abs/2312.10070)  
+| [![Star](https://img.shields.io/github/stars/allenai/Holodeck.svg)](https://github.com/allenai/Holodeck) | [Holodeck: Language Guided Generation of 3D Embodied AI Environments](https://arxiv.org/abs/2312.09067)  
+| [![Star](https://img.shields.io/github/stars/NVlabs/CF-3DGS.svg)](https://github.com/NVlabs/CF-3DGS) | [Colmap-free 3d gaussian splatting](https://arxiv.org/abs/2312.07504)  
+| [![Star](https://img.shields.io/github/stars/Heng14/CoGS/tree/main.svg)](https://github.com/Heng14/CoGS/tree/main) | [CoGS: Controllable Gaussian Splatting](https://arxiv.org/abs/2312.05664)  
+| [![Star](https://img.shields.io/github/stars/spla-tam/SplaTAM.svg)](https://github.com/spla-tam/SplaTAM) | [SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM](https://arxiv.org/abs/2312.02126)  
+| [![Star](https://img.shields.io/github/stars/DevikalyanDas/npgs.svg)](https://github.com/DevikalyanDas/npgs) | [Neural parametric gaussians for monocular non-rigid object reconstruction](https://arxiv.org/abs/2312.01196)  
+| [![Star](https://img.shields.io/github/stars/lkeab/gaussian-grouping.svg)](https://github.com/lkeab/gaussian-grouping) | [Gaussian Grouping: Segment and Edit Anything in 3D Scenes](https://arxiv.org/abs/2312.00732)  
+| [![Star](https://img.shields.io/github/stars/momentum-robotics-lab/md-splatting.svg)](https://github.com/momentum-robotics-lab/md-splatting) | [MD-Splatting: Learning Metric Deformation from 4D Gaussians in Highly Deformable Scenes](https://arxiv.org/abs/2312.00583)  
+|  | [GenZI: Zero-Shot 3D Human-Scene Interaction Generation](https://arxiv.org/abs/2311.17737)  
+| [![Star](https://img.shields.io/github/stars/daveredrum/SceneTex.svg)](https://github.com/daveredrum/SceneTex) | [SceneTex: High-Quality Texture Synthesis for Indoor Scenes via Diffusion Priors](https://arxiv.org/abs/2311.17261)  
+| [![Star](https://img.shields.io/github/stars/lzhnb/GS-IR.svg)](https://github.com/lzhnb/GS-IR) | [GS-IR: 3D Gaussian Splatting for Inverse Rendering](https://arxiv.org/abs/2311.16473)  
+| [![Star](https://img.shields.io/github/stars/NJU-3DV/Relightable3DGaussian.svg)](https://github.com/NJU-3DV/Relightable3DGaussian) | [Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing](https://arxiv.org/abs/2311.16043)  
+| [![Star](https://img.shields.io/github/stars/audi/MeshGPT.svg)](https://github.com/audi/MeshGPT) | [MeshGPT: Generating Triangle Meshes with Decoder-Only Transformers](https://arxiv.org/abs/2311.15475)  
+| [![Star](https://img.shields.io/github/stars/buaacyw/GaussianEditor.svg)](https://github.com/buaacyw/GaussianEditor) | [GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting](https://arxiv.org/abs/2311.14521)  
+| [![Star](https://img.shields.io/github/stars/luciddreamer-cvlab/LucidDreamer.svg)](https://github.com/luciddreamer-cvlab/LucidDreamer) | [LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes](https://arxiv.org/abs/2311.13384)  
+|  | [A compact dynamic 3d gaussian representation for real-time dynamic view synthesis](https://arxiv.org/abs/2311.12897)  
+| [![Star](https://img.shields.io/github/stars/Anttwo/SuGaR.svg)](https://github.com/Anttwo/SuGaR) | [SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering](https://arxiv.org/abs/2311.12775)  
+| [![Star](https://img.shields.io/github/stars/XPandora/PhysGaussian.svg)](https://github.com/XPandora/PhysGaussian) | [PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics](https://arxiv.org/abs/2311.12198)  
+| [![Star](https://img.shields.io/github/stars/yanchi-3dv/diff-gaussian-rasterization-for-gsslam.svg)](https://github.com/yanchi-3dv/diff-gaussian-rasterization-for-gsslam) | [Gs-slam: Dense visual slam with 3d gaussian splatting](https://arxiv.org/abs/2311.11700)  
+| [![Star](https://img.shields.io/github/stars/fudan-zvg/4d-gaussian-splatting.svg)](https://github.com/fudan-zvg/4d-gaussian-splatting) | [Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting](https://arxiv.org/abs/2310.10642)  
+| [![Star](https://img.shields.io/github/stars/hustvl/GaussianDreamer.svg)](https://github.com/hustvl/GaussianDreamer) | [GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models](https://arxiv.org/abs/2310.08529)  
+| [![Star](https://img.shields.io/github/stars/hustvl/4DGaussians.svg)](https://github.com/hustvl/4DGaussians) | [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](https://arxiv.org/abs/2310.08528)  
+| [![Star](https://img.shields.io/github/stars/ingra14m/Deformable-3D-Gaussians.svg)](https://github.com/ingra14m/Deformable-3D-Gaussians) | [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](https://arxiv.org/abs/2309.13101)  
+| [![Star](https://img.shields.io/github/stars/fudan-zvg/4d-gaussian-splatting.svg)](https://github.com/fudan-zvg/4d-gaussian-splatting) | [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](https://arxiv.org/abs/2308.09713)  
+| [![Star](https://img.shields.io/github/stars/3dlg-hcvc/paris.svg)](https://github.com/3dlg-hcvc/paris) | [PARIS: Part-level Reconstruction and Motion Analysis for Articulated Objects](https://arxiv.org/abs/2308.07391)  
+| [![Star](https://img.shields.io/github/stars/graphdeco-inria/gaussian-splatting.svg)](https://github.com/graphdeco-inria/gaussian-splatting) | [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://arxiv.org/abs/2308.04079)  
+| [![Star](https://img.shields.io/github/stars/dvlab-research/DiffComplete.svg)](https://github.com/dvlab-research/DiffComplete) | [DiffComplete: Diffusion-based Generative 3D Shape Completion](https://arxiv.org/abs/2306.16329)  
+|  | [Control4d: Efficient 4d portrait editing with text](https://arxiv.org/abs/2305.20082)  
+| [![Star](https://img.shields.io/github/stars/facebookresearch/segment-anything.svg)](https://github.com/facebookresearch/segment-anything) | [Segment Anything](https://arxiv.org/abs/2304.02643)  
+| [![Star](https://img.shields.io/github/stars/tangjiapeng/DiffuScene.svg)](https://github.com/tangjiapeng/DiffuScene) | [DiffuScene: Denoising Diffusion Models for Generative Indoor Scene Synthesis](https://arxiv.org/abs/2303.14207)  
+| [![Star](https://img.shields.io/github/stars/NVlabs/BundleSDF.svg)](https://github.com/NVlabs/BundleSDF) | [BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects](https://arxiv.org/abs/2303.14158)  
+  
+## 2022
+  
+| Stars | arXiv |  
+|:------------|:-------------|  
+| [![Star](https://img.shields.io/github/stars/pfnet-research/distilled-feature-fields.svg)](https://github.com/pfnet-research/distilled-feature-fields) | [Decomposing NeRF for Editing via Feature Field Distillation](https://arxiv.org/abs/2205.15585)  
+| [![Star](https://img.shields.io/github/stars/UT-Austin-RPL/Ditto.svg)](https://github.com/UT-Austin-RPL/Ditto) | [Ditto: Building Digital Twins of Articulated Objects from Interaction](https://arxiv.org/abs/2202.08227)  
+  
+## 2021
+  
+| Stars | arXiv |  
+|:------------|:-------------|  
+| [![Star](https://img.shields.io/github/stars/JitengMu/A-SDF.svg)](https://github.com/JitengMu/A-SDF) | [A-SDF: Learning Disentangled Signed Distance Functions for Articulated Shape Representation](https://arxiv.org/abs/2104.07645)  
