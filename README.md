@@ -1,8 +1,11 @@
 # 📖 Awesome Digital Twins: A Survey
 ## Papers
+**Table of contents:** [2025](#2025) - [2024](#2024) - [2023](#2023) - [2022](#2022) - [2021](#2021)   
   
-Table of contents: [2025](#2025) - [2024](#2024) - [2023](#2023) - [2022](#2022) - [2021](#2021)   
-  
+[Digital Twin Generation from Visual Data: A Survey](https://arxiv.org/abs/2504.13159)  
+
+If you have relevant papers to include, feel free to submit a [Pull request](https://github.com/ndrwmlnk/awesome-digital-twins/pulls).  
+Explore our [Miro board](https://miro.com/app/board/uXjVI6nHELo=/?share_link_id=345202027936) for a visual mind map of the papers listed below.  
   
 ## 2025
   
