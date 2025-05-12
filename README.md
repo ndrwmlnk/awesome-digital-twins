@@ -1,9 +1,9 @@
-# 📖 Awesome Digital Twins
+# 📖 Awesome Digital Twins: A Survey
 ## Papers
 **Table of contents:** [2025](#2025) - [2024](#2024) - [2023](#2023) - [2022](#2022) - [2021](#2021)   
   
 [Digital Twin Generation from Visual Data: A Survey](https://arxiv.org/abs/2504.13159)  
-
+  
 If you have relevant papers to include, feel free to submit a [Pull request](https://github.com/ndrwmlnk/awesome-digital-twins/pulls).  
 Explore our [Miro board](https://miro.com/app/board/uXjVI6nHELo=/?share_link_id=345202027936) for a visual mind map of the papers listed below.  
   
@@ -11,6 +11,7 @@ Explore our [Miro board](https://miro.com/app/board/uXjVI6nHELo=/?share_link_id=
   
 | Stars | arXiv |  
 |:------------|:-------------|  
+|  | [QuickSplat: Fast 3D Surface Reconstruction via Learned Gaussian Initialization](https://arxiv.org/abs/2505.05591)  
 |  | [RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins](https://arxiv.org/abs/2504.13059)  
 |  | [GEOPARD: Geometric Pretraining for Articulation Prediction in 3D Shapes](https://arxiv.org/abs/2504.02747)  
 | [![Star](https://img.shields.io/github/stars/3dlg-hcvc/SceneEval.svg)](https://github.com/3dlg-hcvc/SceneEval) | [SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis](https://arxiv.org/abs/2503.14756)  
@@ -46,6 +47,7 @@ Explore our [Miro board](https://miro.com/app/board/uXjVI6nHELo=/?share_link_id=
 | [![Star](https://img.shields.io/github/stars/XuqianRen/AGS_Mesh.svg)](https://github.com/XuqianRen/AGS_Mesh) | [AGS-Mesh: Adaptive Gaussian Splatting and Meshing with Geometric Priors for Indoor Room Reconstruction Using Smartphones](https://arxiv.org/abs/2411.19271)  
 | [![Star](https://img.shields.io/github/stars/Gynjn/selfsplat.svg)](https://github.com/Gynjn/selfsplat) | [SelfSplat: Pose-Free and 3D Prior-Free Generalizable 3D Gaussian Splatting](https://arxiv.org/abs/2411.17190)  
 |  | [Generating 3D-Consistent Videos from Unposed Internet Photos](https://arxiv.org/abs/2411.13549)  
+|  | [Edify 3D: Scalable High-Quality 3D Asset Generation](https://arxiv.org/abs/2411.07135)  
 |  | [Hierarchical Knowledge Graph Construction from Images for Scalable E-Commerce](https://arxiv.org/abs/2410.21237)  
 | [![Star](https://img.shields.io/github/stars/NVlabs/LSM.svg)](https://github.com/NVlabs/LSM) | [Large Spatial Model: End-to-end Unposed Images to Semantic 3D](https://arxiv.org/abs/2410.18956)  
 | [![Star](https://img.shields.io/github/stars/3dlg-hcvc/singapo.svg)](https://github.com/3dlg-hcvc/singapo) | [SINGAPO: Single Image Controlled Generation of Articulated Parts in Objects](https://arxiv.org/abs/2410.16499)  
@@ -69,7 +71,6 @@ Explore our [Miro board](https://miro.com/app/board/uXjVI6nHELo=/?share_link_id=
 | [![Star](https://img.shields.io/github/stars/3dlg-hcvc/DuoduoCLIP.svg)](https://github.com/3dlg-hcvc/DuoduoCLIP) | [Duoduo CLIP: Efficient 3D Understanding with Multi-View Images](https://arxiv.org/abs/2406.11579)  
 | [![Star](https://img.shields.io/github/stars/buaacyw/MeshAnything.svg)](https://github.com/buaacyw/MeshAnything) | [MeshAnything: Artist-Created Mesh Generation with Autoregressive Transformers](https://arxiv.org/abs/2406.10163)  
 | [![Star](https://img.shields.io/github/stars/naver/mast3r.svg)](https://github.com/naver/mast3r) | [Grounding Image Matching in 3D with MASt3R](https://arxiv.org/abs/2406.09756)  
-| [![Star](https://img.shields.io/github/stars/YuxueYang1204/TrimGS.svg)](https://github.com/YuxueYang1204/TrimGS) | [Trim 3D Gaussian Splatting for Accurate Geometry Representation](https://arxiv.org/abs/2406.07499)  
 | [![Star](https://img.shields.io/github/stars/YuxueYang1204/TrimGS.svg)](https://github.com/YuxueYang1204/TrimGS) | [Trim 3D Gaussian Splatting for Accurate Geometry Representation](https://arxiv.org/abs/2406.07499)  
 | [![Star](https://img.shields.io/github/stars/zju3dv/PGSR.svg)](https://github.com/zju3dv/PGSR) | [PGSR: Planar-based Gaussian Splatting for Efficient and High-Fidelity Surface Reconstruction](https://arxiv.org/abs/2406.06521)  
 |  | [RefGaussian: Disentangling Reflections from 3D Gaussian Splatting for Realistic Rendering](https://arxiv.org/abs/2406.05852)  
@@ -120,6 +121,7 @@ Explore our [Miro board](https://miro.com/app/board/uXjVI6nHELo=/?share_link_id=
 | [![Star](https://img.shields.io/github/stars/maturk/dn-splatter.svg)](https://github.com/maturk/dn-splatter) | [DN-Splatter: Depth and Normal Priors for Gaussian Splatting and Meshing](https://arxiv.org/abs/2403.17822)  
 |  | [Dreampolisher: Towards high-quality text-to-3d generation via geometric diffusion](https://arxiv.org/abs/2403.17237)  
 | [![Star](https://img.shields.io/github/stars/VITA-Group/Comp4D.svg)](https://github.com/VITA-Group/Comp4D) | [Comp4D: LLM-Guided Compositional 4D Scene Generation](https://arxiv.org/abs/2403.16993)  
+| [![Star](https://img.shields.io/github/stars/Chrixtar/latentsplat.svg)](https://github.com/Chrixtar/latentsplat) | [latentSplat: Autoencoding Variational Gaussians for Fast Generalizable 3D Reconstruction](https://arxiv.org/abs/2403.16292)  
 | [![Star](https://img.shields.io/github/stars/hjr37/CG-SLAM.svg)](https://github.com/hjr37/CG-SLAM) | [Cg-slam: Efficient dense rgb-d slam in a consistent uncertainty-aware 3d gaussian field](https://arxiv.org/abs/2403.16095)  
 | [![Star](https://img.shields.io/github/stars/sharinka0715/semantic-gaussians.svg)](https://github.com/sharinka0715/semantic-gaussians) | [Semantic Gaussians: Open-Vocabulary Scene Understanding with 3D Gaussian Splatting](https://arxiv.org/abs/2403.15624)  
 |  | [FastCAD: Real-Time CAD Retrieval and Alignment from Scans and Videos](https://arxiv.org/abs/2403.15161)  
